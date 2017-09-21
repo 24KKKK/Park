@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>left</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet"
+	type="text/css" />
+</head>
+<body bgcolor="#ccd9ff">
+<br /><br /><br />
+	<ul id="MenuBar1" class="MenuBarVertical">
+		<li><a class="MenuBarItemSubmenu" href="#">停车场管理员信息</a>
+			<ul>
+				<li><a href="ParkAdminInfo/parkadmininfo_index.jsp"
+					target="right"> 查看停车场管理员信息</a></li>
+				<li><a href="ParkAdminInfo/AddParkAdminInfo.jsp" target="right">增加停车场管理员</a></li>
+			</ul></li>
+			
+		<li><a class="MenuBarItemSubmenu" href="#">停车场信息</a>
+			<ul>
+				<li><a href="ParkLotInfo/parklotinfo_index.jsp" target="right">
+						查看停车场信息</a></li>
+				<li><a href="ParkLotInfo/AddParkLotInfo.jsp" target="right">增加停车场</a></li>
+			</ul></li>
+		<li><a  href="Login.jsp" target="_parent">退出</a>
+			</li>
+	</ul>
+	<script type="text/javascript">
+		var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {
+			imgRight : "SpryAssets/SpryMenuBarRightHover.gif"
+		});
+	</script>
+</body>
+</html>
+</html>
